@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Dummy Shell Script for Testing
+
+echo "----------------------------------"
+echo "      Dummy Shell Script"
+echo "----------------------------------"
+
+# Simulate environment setup
+echo "[INFO] Step 1: Setting up environment..."
+sleep 1
+
+# Simulate process
+echo "[INFO] Step 2: Running dummy process..."
+sleep 2
+
+# Simulate log creation
+echo "[INFO] Step 3: Creating dummy log file..."
+echo "This is a dummy log - $(date)" > dummy.log
+sleep 1
+
+# Simulate process completion
+echo "[INFO] Step 4: Dummy process completed successfully."
+echo "[INFO] Log saved to dummy.log"
+
+exit 0
+
